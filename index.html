@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /*
+            grid-column-gap:1em;
+            grid-row-gap:1em;
+            */
+            grid-gap:1em;
+        }
+        .wrapper > div{
+            background-color: #eeeeee;
+            padding: 1em;
+        }
+        .wrapper > div:nth-child(odd){
+            background: #dddddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem pariatur assumenda ratione, eum perspiciatis, exercitationem maxime, quam voluptates temporibus suscipit totam impedit atque deleniti! Nesciunt delectus neque veritatis consectetur voluptatum mollitia ducimus explicabo, voluptatem iure! Sapiente, tempore, esse id earum aliquam dolorum ut officia quaerat maiores repellendus maxime nostrum! Voluptatibus quia molestiae tempora quos doloremque dolore iusto facilis, labore porro reprehenderit vero molestias eaque non placeat quod. Quisquam numquam, reiciendis ipsam id aliquid fugit modi ducimus perspiciatis, praesentium eum a.</div>
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sed reprehenderit. Mollitia beatae quam placeat cumque nobis, cum totam aut dolorem molestias. Architecto, sit eaque accusamus quo voluptatibus placeat reprehenderit.</div>
+        
+    </div>
+</body>
+</html>
